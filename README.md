@@ -55,7 +55,7 @@ def get_data():
     return rollno, name, s1, s2, s3, total, avg
 
 
-# ✅ EXCEL BUTTON FUNCTION
+#  EXCEL BUTTON FUNCTION
 def save_excel():
     try:
         data = get_data()
@@ -79,7 +79,7 @@ def save_excel():
         messagebox.showerror("ERROR", str(e))
 
 
-# ✅ MYSQL BUTTON FUNCTION
+#  MYSQL BUTTON FUNCTION
 def save_mysql():
     try:
         data = get_data()
